@@ -3,11 +3,11 @@ public class Main {
     public static void main(String[] args) {
 
         //Ejercicio if
-        int numerolf = 0;
+        int numeroIf = 0;
 
-        if (numerolf < 0) {
+        if (numeroIf < 0) {
             System.out.println("El número es negativo");
-        } else if (numerolf > 0) {
+        } else if (numeroIf > 0) {
             System.out.println("El número es positivo");
         } else {
             System.out.println("El número es cero");
