@@ -51,8 +51,7 @@ public class Main {
                 System.out.println("Es otoño");
                 break;
             case default:
-                System.out.println(estacion);
-                break;
+                System.out.println(estacion + "no es una estación");
         }
     }
 
