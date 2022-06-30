@@ -1,17 +1,16 @@
 public class Main {
-
     public static void main(String[] args) {
 
         //Ejercicio if
-        int numerolf = 0;
+        int numeroIf = 0;
 
-        if (numerolf < 0) {
+        if (numeroIf < 0) {
             System.out.println("El número es negativo");
-        } else if (numerolf > 0) {
+        } else if (numeroIf > 0) {
             System.out.println("El número es positivo");
         } else {
             System.out.println("El número es cero");
-        };
+        }
 
         //Ejercicio While
         int numeroWhile = 0;
@@ -19,20 +18,20 @@ public class Main {
         while (numeroWhile < 3) {
             System.out.println(numeroWhile);
             numeroWhile++;
-        };
+        }
 
         //Ejercicio Do While
         int numeroDoWhile = 2;
 
         do {
-            System.out.println(numeroDoWhile)
-            numeroDoWhile++
+            System.out.println(numeroDoWhile);
+            numeroDoWhile++;
         } while (numeroDoWhile < 3);
 
         //Ejercicio For
-        for(numeroFor = 0; numeroFor <= 3; numeroFor++){
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++){
             System.out.println(numeroFor);
-        };
+        }
 
         //Ejercicio Switch
         var estacion = "verano";
@@ -52,8 +51,6 @@ public class Main {
                 break;
             case default:
                 System.out.println(estacion);
-                break;
         }
     }
-
 }
